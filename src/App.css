@@ -3,13 +3,17 @@
     width: 100%;
     max-width: 550px;
     border-radius: 15px;
-    border: 2px solid grey;
+    border: 2px solid black;
     padding-bottom: 25px;
+    height: 750px;
 }
+
 .display {
     margin-top: 25px;
-    height: 100px;
-    width: 450px;
+    margin-bottom: 25px;
+    margin-left: 6%;
+    height: 115px;
+    width: 75%;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -19,4 +23,65 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+}
+
+.logo {
+    margin: 25px;
+}
+
+.left-side {
+    width: 65%;
+    margin-left: 10%;
+}
+
+.right-side {
+    width: 65%;
+    margin-left: 65%;
+    margin-top: -86%;
+
+}
+
+.NumbersButtons {
+    background: #0040ff;
+    font-size: 2rem;
+    color: white;
+    border-radius: 50%;
+    border-style: none;
+    border: 1px solid black;
+    width: 25%;
+    height: 85px;
+    margin: 5px;
+}
+
+.NumbersButtons:nth-child(10) {
+    width: 52%;
+    border-radius: 60px;
+}
+
+.OperatorButtons {
+    display: flex;
+    flex-direction: column;
+    background: #4dd2ff;
+    font-size: 2rem;
+    color: white;
+    border-radius: 50%;
+    border-style: none;
+    border: 1px solid black;
+    width: 25%;
+    height: 85px;
+    margin: 8px;
+    justify-content: center;
+    padding: 35px;
+}
+
+.SpecialsButton {
+    background: #4d79ff;
+    font-size: 2rem;
+    color: white;
+    border-radius: 50%;
+    border-style: none;
+    border: 1px solid black;
+    width: 25%;
+    height: 85px;
+    margin: 5px;
+}
